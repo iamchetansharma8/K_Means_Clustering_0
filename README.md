@@ -1,2 +1,4 @@
 # K_Means_Clustering_0
 This is the implementation of K_Means_Clustering algorithm using Scikit Learn and python in jupyter notebook.
+
+K Means Clustering is an unsupervised machine learning algorithm, which means there is no outcome to be predicted.The algorithm just tries to find patterns in data.We have to specify number of clusters while implementing it.The algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster. Then, the algorithm iterates through two steps: Reassign data points to the cluster whose centroid is closest. Calculate new centroid of each cluster. These two steps are repeated till the within cluster variation cannot be reduced any further. The within cluster variation is calculated as the sum of the euclidean distance between the data points and their respective cluster centroids.
